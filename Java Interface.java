@@ -1,4 +1,4 @@
-A Java interface can only contain method signatures and fields. The interface can be used to achieve polymorphism. In this problem, you will practice your knowledge on interfaces.
+/* A Java interface can only contain method signatures and fields. The interface can be used to achieve polymorphism. In this problem, you will practice your knowledge on interfaces.
 
 You are given an interface AdvancedArithmetic which contains a method signature int divisor_sum(int n). You need to write a class called MyCalculator which implements the interface.
 
@@ -16,6 +16,7 @@ I implemented: AdvancedArithmetic
 Explanation
 
 Divisors of 6 are 1,2,3 and 6. 1+2+3+6=12.
+*/
 
 import java.util.*;
 interface AdvancedArithmetic{
