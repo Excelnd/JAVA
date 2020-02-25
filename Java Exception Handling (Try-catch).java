@@ -59,12 +59,10 @@ public class Solution {
             Integer div = x/y;
             System.out.println(div);
 
-        } catch (InputMismatchException bb){
-            System.out.println(bb);
+        } catch (InputMismatchException error){
+            System.out.println("java.util.InputMismatchException");
         } catch (ArithmeticException e) {
             System.out.println(e);
         }
     }
 }
-
-
