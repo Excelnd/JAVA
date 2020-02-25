@@ -4,16 +4,15 @@ import java.text.*;
 import java.math.*;
 import java.util.regex.*;
 
-//Write your code here
-class Adder {
-    
-}
-
 class Arithmetic {
     public int add(int num1, int num2) {
         int sum = num1 + num2;
         return sum;
     }
+}
+
+class Adder extends Arithmetic {
+    // empty
 }
 
 public class Solution{
